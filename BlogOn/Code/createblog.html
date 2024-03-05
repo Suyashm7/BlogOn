@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create Blog</title>
+  <style>
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    body {
+      background-color: #f4f4f4;
+      font-family: Arial, sans-serif;
+    }
+
+    form {
+      max-width: 800px;
+      margin: 0 auto;
+      background-image: linear-gradient(to bottom right, #9ed5f3 60%, #fff);
+      padding: 20px;
+      border-radius: 5px;
+      border: 1px solid black;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      color: #555;
+    }
+
+    input[type="text"],
+    textarea,
+    select {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-bottom: 12px;
+    }
+
+    select {
+      height: 34px;
+    }
+
+    button{
+      width:70px;
+      height:35px;
+      border:1px solid black;
+      border-radius: 20px;
+      background-image:linear-gradient(to right, #075586, #67b9e6);
+      font-weight: bold;
+      margin-top:30px;
+    }
+
+
+    .template{
+      width: 350px;
+      height: 150 px;
+    }
+
+    .template-grid{
+      margin-top: 40px;
+      margin-left: 40px;
+      margin-bottom: 100px;
+    }
+    .template-label{
+     margin-left: 140px;
+     margin-right: 140px;
+    }
+    .columnimage{
+      margin-top: 20px;
+    }
+  </style>
+  <!-- Include Font Awesome CSS from CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+  <h1>Create a Blog</h1>
+  <form action="createblog.php" method="POST" enctype="multipart/form-data">
+    <label for="title"><i class="fas fa-heading"></i> <b>Title:</b></label>
+    <input type="text" id="title" name="title">
+
+    <label for="category"><i class="fas fa-folder"></i><b> Category:</b> </label>
+    <select id="category" name="category">
+      <option value="Travel Blog">Travel Blog</option>
+      <option value="Education Blog">Education Blog</option>
+      <option value="Sports Blog">Sports Blog</option>
+      <option value="Other Blog">Other Blog</option>
+    </select>
+
+    <label for="author"><i class="fas fa-user"></i> <b>Author: </b></label>
+    <input type="text" id="author" name="author">
+
+    <label for="image"><i class="fas fa-image"></i> <b>Image: </b></label>
+    <input type="file" name="choosefile" value=""><p></P>
+
+    <label for="content"><i class="fas fa-align-left"></i> <b>Content: </b></label>
+    <textarea id="content" name="content" rows="7" cols="80"></textarea>
+
+    <label for="template"><i class="fas fa-cogs"></i> <b>Template: </b></label>
+    <select id="template" name="template">
+      <option value="template1">Template 1</option>
+
+    </select>
+
+    <a href=""> <button style="margin-left: 45%" type="submit" value="submit" id="submit" name="uploadfile">Submit</button></a>
+  </form><br><br>
+</body>
+</html>

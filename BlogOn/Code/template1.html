@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template 1</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+    <style>
+        #title{
+            font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background: transparent;
+            border: none;
+            font-size: 44px;
+        }
+        #category{
+            font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: transparent;
+            border: none;
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+        #author{
+            font-family:  cursive;
+            background: transparent;
+            border: none;
+            font-size: 20px;
+        }
+        .media {
+            align-items: flex-start;
+            display: inline-block;
+        }
+
+        #template{
+            background: transparent;
+            border: none;
+        }
+
+        #templateimage{
+            margin-top: 0px;
+            float: left;
+            margin-right: 20px;
+            margin-bottom: 0px;
+            height: 250px;
+            width: 250px;
+        }
+        .media .content {
+            flex: 1;
+            padding: 0px;
+            margin-top: 0%;
+        }
+        .form-box{
+            border: 2px solid black;
+            padding: 5%;
+            margin:0 7% ;
+            min-height: 100px;
+            border-radius: 20px;
+            overflow: hidden;
+            background-image: linear-gradient(to bottom right, #A9F1DF , #FFBBBB);
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5 ">
+        <div class="form-box"> 
+            <form action='createblog.html' id='driver'>
+                <div class="form-group"> 
+                    <div class="row">
+                        <input class="col-lg-12 formfield text-center"  id='title' disabled value="Title"/>
+                        <input class=" col-lg-12 formfield text-center"  id='author' disabled value="Author"/>
+                        <input class=" col-lg-12 formfield text-center"  id='category' disabled value="category"/>
+                        <div class="media">
+                            <div class="image" ><img src="./image/avatar.jpg" id="templateimage" alt="Image"></div>
+                              <div class="content">
+                                <input class=" col-lg-12 formfield text-center"  id='template' disabled  />
+                                <p>Sed ut perspiciatis unde omnisiste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                            </div>
+                    </div> 
+                </div>
+            </form> 
+        </div>
+    </div>
+
+</body>
+</html>

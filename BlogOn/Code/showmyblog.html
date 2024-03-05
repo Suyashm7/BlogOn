@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show My Blogs</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .gradient-custom-2 {
+            background: white;
+        }   
+
+        .headerdiv{
+            background:linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+            height: 220px;
+        }
+        .avatar{
+            border-radius: 50%;
+            width: 135px;
+            height: 135px;
+            position: absolute;
+            top: 15px;
+            left: 30px;
+            border: 4px black;
+        }
+        #info{
+            margin-left: 150px;
+            margin-top: 70px;
+        }
+
+        .logout{
+            height: 30px;
+            width: auto;
+            margin-left: 470px;
+            background-color: #343a40;
+            color: white;
+        }
+        #edit{
+          margin-left: 66px;
+          width: 60px;
+          background-color: #343a40;
+          color: white;
+        }
+        .dabba{
+          box-shadow: 0 0 20px 0;
+        }
+        #next-button{
+            width:70px;
+            height:35px;
+            border:1px solid black;
+            border-radius: 20px;
+            background-color: #343a40;
+            color: white;
+            font-weight: bold;
+            margin-top:30px;
+            margin-left: 45%;
+        }
+    .headbox{
+        height: 180px;
+    }
+    </style>
+</head>
+<body>
+    <section class="h-100 gradient-custom-2">
+        <div class="container py-5 h-100" >
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col col-lg-9 col-xl-10">
+              <div class="card dabba">
+                <div class="rounded-top text-white d-flex flex-row headerdiv headbox" >
+                    <br><br>
+                  <div class="ms-4 mt-5 d-flex flex-column" style="width: 150px;">
+                    <img src="../Images/avatar.jpg"
+                      alt="" class="avatar">
+                      <br><br><br>
+                      
+                  </div>
+                  
+                  <div class="ms-3" id="info">
+                    <h3>UserName</h3>
+                    <p>Full Name</p>
+                  </div>
+                  <a href="profile.html"><button type="button" class="logout fa fa-sign-out" ></button></a>
+                </div>
+                <div class="p-4 text-black" style="background-color: #f8f9fa;">
+                  <div class="d-flex justify-content-end text-center py-1">
+                    <div>
+                      <p class="mb-1 h5">0</p>
+                      <p class="small text-muted mb-0">Blogs</p>
+                    </div>
+                    <div class="px-3">
+                      <p class="mb-1 h5">0.0</p>
+                      <p class="small text-muted mb-0">Rating</p>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+</html>
