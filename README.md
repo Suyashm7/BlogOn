@@ -14,7 +14,7 @@ something.
 
 Blogs are always evolving both in terms of how they're created and what they are used for. They
 can be a vehicle for creativity and for marketing. They're also increasingly created and read on
-mobile apps, as mobile blogging also comes into its own
+mobile apps, as mobile blogging also comes into its own.
 
 ![image](https://github.com/tejas11054/BlogOn/assets/140798292/ea711920-bdf3-4144-95a1-31d228041879)
 
